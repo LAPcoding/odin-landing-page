@@ -1,0 +1,180 @@
+/*These are the nav bar styles*/
+
+.nav{
+    background-color: #1f2937;
+    color:white;
+    font-family: roboto, arial;
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+    width:100vw;
+    
+}
+
+.nav ul{
+    display:flex;
+    
+}
+
+.nav li{
+    text-decoration:none;
+    list-style: none;
+    padding:20px;
+}
+
+/*Below are the styles for the hero section. */
+
+.hero{
+    background-color: #1f2937;
+    display:flex;
+    width:100vw;
+    font-family:roboto, arial;
+    padding: 80px 0;
+    
+}
+
+.hero-left{
+    margin-left:180px;
+    align-content:center;
+    padding-right:30px;
+}
+
+.hero-left h1{
+    font-size: 48px;
+    font-weight: extra-bold;
+    color: #f9faf8;
+}
+
+.hero-left p{
+    font-size:18px;
+    color: #e5e7eb;
+}
+
+.hero-left button{
+    background-color:#3882f6;
+    border-radius:8px;
+    border:none;
+    box-shadow:none;
+    padding:10px 20px;
+}
+
+.hero-right{
+    margin-right:180px;
+}
+
+.hero-right img{
+    height:300px;
+}
+
+
+/* These are styles for info section. */
+.info-title{
+    font-family: roboto, arial;
+    font-size: 36px;
+    font-weight: extra-bold;
+    color:#1f2937;
+    display:flex;
+    justify-content:center;
+}
+
+.info {
+    max-width: 100vw;
+    display:flex;
+    justify-content:space-around;
+    margin: 100px;
+    margin-top: 50px;
+}
+
+.info img{
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    border:#3882f6 5px solid;
+}
+
+.info p{
+    font-family: roboto, arial;
+    width: 150px;
+    display:flex;
+    flex-wrap: wrap;
+    justify-items:center;
+}
+
+/*Styles for the quote section*/
+
+.quote{
+    background-color: #e5e7eb;
+    padding:80px 150px;
+    max-width: 100vw;
+}
+
+.quote h3{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 36px;
+    font-weight:lighter;
+    font-style:italic;
+}
+
+.quote h4{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 200px;
+}
+
+/*Styles for call to action section.*/
+
+.action{
+    background-color:#3882f6;
+    width:70%;
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+    border-radius:10px;
+    padding: 15px;
+    margin: 100px 180px;
+    max-width:100vw;
+}
+
+.action-left h4{
+    font-family:roboto, arial;
+    font-size: 20px;
+    color:white;
+}
+
+.action-left p{
+    font-family: roboto, arial;
+    color:white;
+    margin-top: -20px;
+}
+
+.action-right button{
+    font-family: roboto, arial;
+    font-size:16px;
+    color:white;
+    font-weight:bold;
+    background-color:#3882f6;
+    border: solid 2px white;
+    border-radius:10px;
+    padding: 5px 20px;
+}
+
+/*Styles for footer*/
+
+.footer{
+    background-color:#1f2937;
+    max-width:100vw;
+    height: 100px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.footer p{
+    font-family:roboto, arial;
+    font-size:20px;
+    color:white;
+    
+
+}
